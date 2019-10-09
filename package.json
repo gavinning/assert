@@ -1,6 +1,6 @@
 {
-  "name": "@gavinning/is",
-  "version": "0.0.0",
+  "name": "@gavinning/assert",
+  "version": "0.0.1",
   "description": "参数检查，数据检查，不通过则抛出错误消息，支持批量检查",
   "main": "app.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/gavinning/is/issues"
   },
-  "homepage": "https://github.com/gavinning/is#readme"
+  "homepage": "https://github.com/gavinning/is#readme",
+  "devDependencies": {
+    "mocha": "^6.2.1"
+  }
 }
