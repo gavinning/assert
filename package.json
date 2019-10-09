@@ -1,0 +1,28 @@
+{
+  "name": "@gavinning/is",
+  "version": "0.0.0",
+  "description": "参数检查，数据检查，不通过则抛出错误消息，支持批量检查",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinning/is.git"
+  },
+  "keywords": [
+    "check",
+    "arguments",
+    "parameters",
+    "values",
+    "data",
+    "assert",
+    "verify"
+  ],
+  "author": "gavinning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinning/is/issues"
+  },
+  "homepage": "https://github.com/gavinning/is#readme"
+}
