@@ -1,15 +1,4 @@
-assert
----
-已迁移到 [``@4a/assert``](https://www.npmjs.com/package/@4a/assert)
-
-### Install
-```sh
-npm i @4a/assert
-```
-
-### Usage
-```js
-const assert = require('@4a/assert')
+const assert = require('./app')
 
 try {
     assert.ok(0, 100, 'error code 100')
@@ -24,10 +13,9 @@ catch(err) {
 try {
     assert.fail(1, 200, 'error code 200')
 }
-catch(err) {
+catch (err) {
     console.log({
         code: err.code,
         message: err.message
     })
 }
-```

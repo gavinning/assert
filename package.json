@@ -1,7 +1,7 @@
 {
-  "name": "@gavinning/assert",
-  "version": "0.0.1",
-  "description": "参数检查，数据检查，不通过则抛出错误消息，支持批量检查",
+  "name": "@4a/assert",
+  "version": "0.1.0",
+  "description": "断言，失败信息支持携带err-code",
   "main": "app.js",
   "scripts": {
     "test": "mocha test/*.spec.js"
@@ -17,7 +17,11 @@
     "values",
     "data",
     "assert",
-    "verify"
+    "verify",
+    "share-error",
+    "shareerror",
+    "err-code",
+    "error-code"
   ],
   "author": "gavinning",
   "license": "MIT",
@@ -27,5 +31,8 @@
   "homepage": "https://github.com/gavinning/is#readme",
   "devDependencies": {
     "mocha": "^6.2.1"
+  },
+  "dependencies": {
+    "@4a/share-error": "^0.1.0"
   }
 }
