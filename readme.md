@@ -1,6 +1,6 @@
 assert
 ---
-已迁移到 [``@4a/assert``](https://www.npmjs.com/package/@4a/assert)
+断言，失败信息支持携带err-code
 
 ### Install
 ```sh
