@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/gavinning/is#readme",
   "devDependencies": {
-    "mocha": "^6.2.1"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "@4a/share-error": "^0.1.0"
